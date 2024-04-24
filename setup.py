@@ -74,6 +74,7 @@ def main():
         "eth-typing",
         "eth-utils",
         "flake8",
+        "black"
         "hexbytes",
         "importlib-metadata",
         "injective-py",
