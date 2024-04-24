@@ -17,9 +17,9 @@ class LogPrice(ScriptStrategyBase):
             connector.get_order_book(trading_pair_DYP)
             self.logger().info(
                 f"Connector: {connector_name} "
-                f" || best ask: {connector.get_price(trading_pair_DYP, is_buy=True)} "
-                f" || best bid: {connector.get_price(trading_pair_DYP, is_buy=False)} "
-                f" || mid price: {connector.get_mid_price(trading_pair_DYP)}"
+                f"|| best ask: {connector.get_price(trading_pair_DYP, is_buy=True)} "
+                f"|| best bid: {connector.get_price(trading_pair_DYP, is_buy=False)} "
+                f"|| mid price: {connector.get_mid_price(trading_pair_DYP)}"
             )
             # self.logger().info(f"Connector: {connector_name}")
             # self.logger().info(f"Best ask: {connector.get_price(trading_pair, is_buy=True)}")
